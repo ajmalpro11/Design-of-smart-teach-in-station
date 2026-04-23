@@ -1,22 +1,50 @@
-# Mechanical Design Project: Teach-In Station
-**Group D - Team Members: Ajumal Shamsudeen, Aniket Barotkar, Azmath Dar Khan, Francis Almeida, Udit Kumar, Yazmin Soto**
+# Teach-In Station: Automated Warehouse Classification System
 
-## Project Overview
-This project involves the design of an innovative teach-in station for warehouse management. [cite_start]The system is designed to accurately identify and analyze key product attributes to reduce losses and improve logistical efficiency[cite: 16, 340].
+<p align="center">
+  <img src="images/th_rosenheim.png" width="300" />
+  <img src="images/tgw_logo.png" width="300" />
+</p>
 
-### Key Features
-* [cite_start]**Stiffness Measurement:** A probe using a load cell and 3D camera to calculate structural integrity[cite: 208, 367].
-* [cite_start]**3D Classification:** High-resolution camera profiling to distinguish between "regular" (boxes/crates) and "ugly" (irregular) objects[cite: 201, 339].
-* [cite_start]**Multifunctional Swivelling Table:** Measures center of mass, liquid detection, and friction coefficients[cite: 372].
-* [cite_start]**Gravity Conveyor:** Automatically separates products based on their classification[cite: 373].
+**Mechanical Design | Summer Semester 2024** **Technische Hochschule Rosenheim | Group D** *In collaboration with TGW Logistics Group GmbH*
 
-## Repository Contents
-* [cite_start]`docs/`: Includes the full [Mechanical Design Report](_Mechanical%20design%20Report.pdf)[cite: 1].
-* [cite_start]`cad-models/`: 3D designs for the Cage Assembly (€4188.30) and other components[cite: 239].
-* [cite_start]`simulations/`: FEA evaluation of stiffness measuring guideways under load[cite: 211].
-* [cite_start]`software/`: Logic for the stackability TGW Decision Code[cite: 223].
+---
 
-## Financial Summary
-* [cite_start]**Total Estimated Cost:** €9,118.76[cite: 238].
-* [cite_start]**Budget Limit:** €15,000.00[cite: 233].
-* [cite_start]**Major Expense:** Cage Assembly (Material cost: €3628.30)[cite: 241].
+## 🏛️ Project Context
+This project was developed as part of the **Mechanical Design** curriculum at **TH Rosenheim** for the Summer Semester 2024. The design was created in direct collaboration with **TGW Logistics Group GmbH** to solve real-world challenges in automated logistics.
+
+## 📝 Project Overview
+The "Teach-In Station" is an innovative solution designed to automate the identification of product attributes. Unlike standard systems that only track barcodes, this station analyzes:
+* **Physical Dimensions & Shape:** Identifying "Regular" vs. "Ugly" (irregular) objects using 3D camera profiling.
+* **Stiffness:** Measuring structural integrity via a custom probe mechanism ($F = k \cdot \delta$).
+* **Material Properties:** Detecting center of mass, liquid content (sloshing detection), and friction coefficients.
+
+## 🛠️ System Assemblies
+The repository contains design data for the following core modules:
+1. **/Cage-Assembly:** The main structural frame housing the 3D camera, ultrasonic sensors, and weighing system.
+2. **/Stiffness-Mechanism:** Precision assembly utilizing stepper motors, lead screws, and load cells for pressure testing.
+3. **/Swivelling-Table:** A tilting platform designed for center of mass calculation and liquid detection.
+4. **/Gravity-Conveyor:** The sorting mechanism for final product distribution.
+
+## 📊 Technical Specifications
+* **Final Concept:** Concept 7 (Selected for high reliability and space efficiency).
+* **Total Estimated Cost:** **€9,118.76** (Budget limit: €15,000.00).
+* **Software Logic:** Implementation of the **TGW Decision Code** (evaluating Weight, Dimensions, Geometry, and Stiffness).
+* **Safety:** Integrated emergency stop, smoke detection, and optimized LED lighting for sensor precision.
+
+## 👥 Group D Team Members
+* Ajumal Shamsudeen 
+* Aniket Barotkar
+* Azmath Dar Khan
+* Francis Almeida
+* Udit Kumar
+* Yazmin Soto
+
+---
+
+## 📂 Repository Structure
+```text
+├── docs/                 # Final Report and Technical Documentation
+├── cad-models/           # STEP/STL files for all assemblies
+├── simulations/          # Ansys FEA study results
+├── logic/                # TGW Decision Code flowcharts and scripts
+└── README.md             # Project Overview
