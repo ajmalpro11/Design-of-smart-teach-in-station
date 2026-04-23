@@ -1,8 +1,8 @@
 # Teach-In Station: Automated Warehouse Classification System
 
 <p align="center">
-  <img src="images/th_rosenheim.png" width="300" />
-  <img src="images/tgw_logo.png" width="300" />
+  <img src="./images/icon.jpeg" width="200" />
+  <img src="./images/tgw.jpg" width="200" />
 </p>
 
 **Mechanical Design | Summer Semester 2024** **Technische Hochschule Rosenheim | Group D** *In collaboration with TGW Logistics Group GmbH*
