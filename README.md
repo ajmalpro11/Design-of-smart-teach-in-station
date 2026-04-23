@@ -14,6 +14,9 @@ This project was developed as part of the **Mechanical Design** curriculum at **
 
 ## 📝 Project Overview
 The "Teach-In Station" is an innovative solution designed to automate the identification of product attributes. Unlike standard systems that only track barcodes, this station analyzes:
+<p align="center">
+  <img src="./images/Final_Assembly.png" width="200" />
+</p>  
 * **Physical Dimensions & Shape:** Identifying "Regular" vs. "Ugly" (irregular) objects using 3D camera profiling.
 * **Stiffness:** Measuring structural integrity via a custom probe mechanism ($F = k \cdot \delta$).
 * **Material Properties:** Detecting center of mass, liquid content (sloshing detection), and friction coefficients.
