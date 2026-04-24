@@ -50,6 +50,6 @@ The repository contains design data for the following core modules:
 ```text
 ├── docs/                 # Final Report and Technical Documentation
 ├── cad-models/           # STEP/STL files for all assemblies
-├── simulations/          # Ansys FEA study results
+├── images/          
 ├── logic/                # TGW Decision Code flowcharts and scripts
 └── README.md             # Project Overview
